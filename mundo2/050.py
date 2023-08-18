@@ -8,9 +8,3 @@ Problema: Desenvolva um programa que leia seis
 
 Resolução do problema:
 """
-somador = 0
-for c in range(0, 6):
-    numero = int(input('Informe um valor: '))
-    if numero % 2 == 0:
-        somador += numero
-print('A soma de todos os valores pares informados é {}'.format(somador))

@@ -9,10 +9,3 @@ Problema: Crie um programa que leia vários números inteiros pelo teclado.
 
 Resolução do problema:
 """
-num = contNum = acumulador = 0
-while num != 999:
-    contNum += 1
-    acumulador += num
-    num = int(input('Informe um valor ou 999 para sair: '))
-
-print('\nForam informados {} números\nE a soma entre eles é {}'.format(contNum - 1, acumulador))

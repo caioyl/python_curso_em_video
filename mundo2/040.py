@@ -9,14 +9,3 @@ Problema: Crie um programa que leia duas notas de um aluno e calcule sua média,
 
 Resolução do problema:
 """
-nota_1 = float(input('Informe a primeira nota: '))
-nota_2 = float(input('Informe a segunda nota: '))
-
-media = (nota_1 + nota_2) / 2
-
-if media < 5.0:
-    print('REPROVADO.')
-elif 5.0 <= media <= 6.9:
-    print('RECUPERAÇÃO.')
-else:
-    print('APROVADO')

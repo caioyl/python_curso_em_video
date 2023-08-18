@@ -8,7 +8,3 @@ Problema: Crie um pequeno sistema modularizado que permita cadastrar pessoas pel
 
 Resolução do problema:
 """
-import ex115_modulo
-
-while True:
-    ex115_modulo.menu()

@@ -8,13 +8,3 @@ Problema: Escreva um programa que faça o computador "pensar"
 
 Resolução do problema:
 """
-from random import randint
-maquina = randint(0, 5)
-
-chute = int(input('Adivinhe o número um número entre 0 e 5: '))
-
-if chute == maquina:
-    print('Você ACERTOU.')
-else:
-    print('Você ERROU.')
-    print('O número era {}'.format(maquina))

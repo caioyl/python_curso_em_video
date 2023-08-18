@@ -7,10 +7,3 @@ Problema: Desenvolva um programa que leia o primeiro termo
 
 Resolução do problema:
 """
-primeiroTermo = int(input('Informe o primeiro termo da progressão: '))
-razao = int(input('Informe a razão da progressão: '))
-n = primeiroTermo + (10 - 1) * razao # Enésimo termo da progressão
-
-for c in range(primeiroTermo, n + 1, razao):
-    print('{} -> '.format(c), end='')
-print('FIM DA PROGRESSÂO')

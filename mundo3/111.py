@@ -9,8 +9,3 @@ Problema: Crie um pacote chamado utilidadesCeV que tenha dois módulos internos 
 
 Resolução do problema:
 """
-from ex111_modulo.utilidadesCeV import moeda
-
-preco = float(input('Informe um preço: R$'))
-
-moeda.resumo(preco, 70, 10)
