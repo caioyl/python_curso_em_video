@@ -6,3 +6,5 @@ Problema: Faça um programa que leia um número Inteiro qualquer
 
 Resolução do problema:
 """
+numero = input('Digite um número: ')
+print(f'')
