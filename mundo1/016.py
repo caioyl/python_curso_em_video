@@ -6,3 +6,6 @@ Problema: Crie um programa que leia um número Real qualquer
 
 Resolução do problema:
 """
+numero_real = float(input('Digite um número real: '))
+parte_inteira = int(numero_real)
+print(f'A parte inteira deste número é igual a: {parte_inteira}')

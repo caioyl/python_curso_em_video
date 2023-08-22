@@ -6,3 +6,6 @@ Problema: Escreva um programa que converta uma temperatura
 
 Resolução do problema:
 """
+temp_celsius = float(input('Digite a temperatura em graus Celsius: '))
+temp_fahrenheit = ((9*temp_celsius)/5) + 32
+print(f'{temp_celsius}ºC = {temp_fahrenheit}ºF')

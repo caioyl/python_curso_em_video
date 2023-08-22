@@ -8,3 +8,7 @@ Problema: Escreva um programa que pergunte a quantidade de Km
 
 Resolução do problema:
 """
+km_percorridos = float(input('Digite quantos kms foram percorridos: '))
+dias_alugados = float(input('Digite por quantos dias o carro foi alugado: '))
+preco = (60*dias_alugados) + (km_percorridos * 0.15)
+print(f'Preço a se pagar: R${preco:.2f}')

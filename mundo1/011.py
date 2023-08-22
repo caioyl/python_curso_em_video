@@ -8,3 +8,9 @@ Problema: Faça um programa que leia a largura e a altura de uma
 
 Resolução do problema:
 """
+largura = float(input('Largura da parede (em metros): '))
+altura = float(input('Altura da parede (em metros): '))
+area = largura * altura
+quantidade_tinta = area / 2
+print(f'Considerando que cada litro de tinta pinta uma área de 2 metros quadrados, com uma área de {area} metros,'
+      f'você precisará de {quantidade_tinta} litros para pintar a parede inteira.')

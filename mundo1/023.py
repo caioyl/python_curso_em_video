@@ -5,3 +5,7 @@ Problema: Faça um programa que leia um número de 0 a 9999 e mostre na tela cad
 
 Resolução do problema:
 """
+n = int(input('Digite um número de 0 a 9999: '))
+unidade = n //
+dezena
+centena
