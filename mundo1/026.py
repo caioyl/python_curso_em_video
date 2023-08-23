@@ -8,3 +8,9 @@ Problema: Faça um programa que leia uma frase pelo teclado
 
 Resolução do problema:
 """
+frase = input('Digite uma frase: ')
+print(f'A letra "A" aparece {frase.upper().count("A")} vezes na frase.')
+print(f'A primeira vez que a letra "A" aparece é na posição {frase.upper().find("A")+1}')
+print(f'A última vez que a letra "A" aparece é na posição {frase.upper().rfind("A")+1}')
+
+

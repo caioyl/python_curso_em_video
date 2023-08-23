@@ -8,3 +8,4 @@ Problema: Escreva um programa que leia a velocidade de um carro.
 
 Resolução do problema:
 """
+velocidade = float(input('Digite a vel'))

@@ -8,3 +8,4 @@ Problema: Escreva um programa que faça o computador "pensar"
 
 Resolução do problema:
 """
+numeros
